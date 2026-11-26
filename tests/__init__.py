@@ -1,0 +1,1 @@
+"""Whisper Free test suite."""

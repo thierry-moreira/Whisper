@@ -1,0 +1,47 @@
+# ==============================================================================
+# Whisper Free — Runtime dependencies
+# Python 3.12 (use `py -3.12`)
+# ==============================================================================
+
+# --- Speech-to-Text (GPU accelerated) -----------------------------------------
+# faster-whisper: 4x faster than openai/whisper, natively CUDA via CTranslate2.
+# NOTE: torch is only needed for CUDA cleanup (torch.cuda.empty_cache).
+#       CTranslate2 ships its own CUDA runtime support in its wheels.
+faster-whisper>=1.2.0
+ctranslate2>=4.5.0
+
+# --- Grammar / Spelling correction (local server, pt-BR) ----------------------
+# Requires a Java 17+ runtime. If not present, the app can auto-download a
+# portable JRE 17 into ./runtime/jre (see scripts/install.py).
+language-tool-python>=3.2.0
+
+# --- Audio capture -------------------------------------------------------------
+sounddevice>=0.5.0
+numpy>=1.26.0
+
+# --- Global hotkey ---------------------------------------------------------------
+keyboard>=0.13.5
+
+# --- Text injection ---------------------------------------------------------------
+pyperclip>=1.9.0
+
+# --- System tray --------------------------------------------------------------------
+pystray>=0.19.5
+Pillow>=10.0.0
+
+# --- Configuration ------------------------------------------------------------------
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+python-dotenv>=1.0.0
+
+# --- Logging ---------------------------------------------------------------------------
+loguru>=0.7.2
+
+# ==============================================================================
+# Optional but recommended:
+#   torch (CUDA build) — enables explicit VRAM cache cleanup between
+#   transcriptions. Without it, CTranslate2 still frees memory on model
+#   deletion, but the app cannot call torch.cuda.empty_cache().
+#
+#   Install with: pip install torch --index-url https://download.pytorch.org/whl/cu124
+# ==============================================================================

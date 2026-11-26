@@ -1,0 +1,16 @@
+# ==============================================================================
+# Whisper Free — Development dependencies
+# ==============================================================================
+-r requirements.txt
+
+# --- Testing ---
+pytest>=8.2.0
+pytest-cov>=5.0.0
+pytest-mock>=3.14.0
+pytest-timeout>=2.3.0
+
+# --- Code quality ---
+black>=24.4.0
+ruff>=0.5.0
+mypy>=1.10.0
+pre-commit>=3.7.0

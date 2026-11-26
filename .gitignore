@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/*
+!build/whisper_free.spec
+!build/whisper_free.iss
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Models (downloaded weights — never commit)
+models/
+
+# Runtime (downloaded JRE, temp files)
+runtime/
+
+# Configuration & secrets
+.env
+*.local
+
+# Logs
+logs/
+*.log
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+*.spec.bak
