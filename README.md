@@ -54,8 +54,8 @@ Aplicação desktop **Windows** para ditado por voz com correção gramatical/or
 
 ### Opção B — Código-fonte (desenvolvimento)
 ```bash
-git clone https://github.com/seu-usuario/whisper-free.git
-cd whisper-free
+git clone https://github.com/thierry-moreira/Whisper.git
+cd Whisper
 
 # 1. Ambiente virtual (Python 3.11 ou 3.12)
 py -3.12 -m venv .venv

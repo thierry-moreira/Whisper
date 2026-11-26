@@ -39,7 +39,7 @@ e o projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 ### Documentação
 - README e guias alinhados à arquitetura real: tkinter + pystray, pipeline síncrono, sem PyQt6/asyncio/estado `ERROR`.
 - Prefixo de ambiente corrigido para `WHISPER_FREE_`.
-- Métricas de teste corrigidas para 176 testes e ~62% de cobertura global.
+- Métricas de teste corrigidas para 221 testes e ~64% de cobertura global.
 
 ---
 
@@ -61,8 +61,8 @@ e o projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 - **Logging**: loguru com rotação em `logs/whisper_free.log`.
 
 ### Qualidade
-- 176 testes unitários; 2 testes de integração excluídos por padrão.
-- Cobertura global ~62%; núcleo 84–93%.
+- 221 testes unitários; 2 testes de integração excluídos por padrão.
+- Cobertura global ~64%; núcleo 84–94%.
 - Ruff, Black e MyPy limpos.
 - CI em `windows-latest` (Python 3.11 e 3.12).
 
@@ -77,6 +77,6 @@ e o projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 | Patch | 0.0.X | Correções |
 
 ## Links
-- [GitHub Releases](https://github.com/seu-usuario/whisper-free/releases)
-- [Issues](https://github.com/seu-usuario/whisper-free/issues)
-- [Discussions](https://github.com/seu-usuario/whisper-free/discussions)
+- [GitHub Releases](https://github.com/thierry-moreira/Whisper/releases)
+- [Issues](https://github.com/thierry-moreira/Whisper/issues)
+- [Discussions](https://github.com/thierry-moreira/Whisper/discussions)

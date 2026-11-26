@@ -11,8 +11,8 @@
 ## Setup
 
 ```bash
-git clone https://github.com/seu-usuario/whisper-free.git
-cd whisper-free
+git clone https://github.com/thierry-moreira/Whisper.git
+cd Whisper
 
 py -3.12 -m venv .venv
 .venv\Scripts\python -m pip install --upgrade pip

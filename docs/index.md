@@ -35,8 +35,8 @@ Bem-vindo à documentação técnica do **Whisper Free** — aplicação desktop
 
 ```bash
 # 1. Clone e configure
-git clone https://github.com/seu-usuario/whisper-free.git
-cd whisper-free
+git clone https://github.com/thierry-moreira/Whisper.git
+cd Whisper
 py -3.12 -m venv .venv
 .venv\Scripts\python -m pip install -e ".[gpu,dev]"
 
